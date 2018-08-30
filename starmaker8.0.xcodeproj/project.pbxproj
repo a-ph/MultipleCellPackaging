@@ -15,6 +15,20 @@
 		14CB5707213574D400DA8F0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CB5706213574D400DA8F0D /* main.m */; };
 		14CB5711213574D400DA8F0D /* starmaker8_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CB5710213574D400DA8F0D /* starmaker8_0Tests.m */; };
 		14CB571C213574D400DA8F0D /* starmaker8_0UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CB571B213574D400DA8F0D /* starmaker8_0UITests.m */; };
+		14CB572B2135755700DA8F0D /* SMHomeBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CB572A2135755700DA8F0D /* SMHomeBaseTableViewCell.m */; };
+		14CB572E2135771300DA8F0D /* UIColor+RandomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CB572D2135771300DA8F0D /* UIColor+RandomColor.m */; };
+		14CB573121357A0300DA8F0D /* SMHomeAudioTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CB573021357A0300DA8F0D /* SMHomeAudioTableViewCell.m */; };
+		14CB573421357EE400DA8F0D /* SMHomeVideoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CB573321357EE400DA8F0D /* SMHomeVideoTableViewCell.m */; };
+		14CB5737213637FC00DA8F0D /* SMHomeCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CB5736213637FC00DA8F0D /* SMHomeCellModel.m */; };
+		14CB573A21363C6800DA8F0D /* SMHomeImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CB573921363C6800DA8F0D /* SMHomeImageTableViewCell.m */; };
+		14CB573D21368E4400DA8F0D /* SMHomeSingVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CB573C21368E4400DA8F0D /* SMHomeSingVideoView.m */; };
+		14CB57402136CDB500DA8F0D /* SMHomeForwardAudioTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CB573F2136CDB500DA8F0D /* SMHomeForwardAudioTableViewCell.m */; };
+		14CB57472137953500DA8F0D /* SMHomeCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CB57462137953500DA8F0D /* SMHomeCardView.m */; };
+		14CB574A2137D45A00DA8F0D /* SMHomeForwardImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CB57492137D45A00DA8F0D /* SMHomeForwardImageTableViewCell.m */; };
+		14CB574D2137D50900DA8F0D /* SMHomeForwardVideoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CB574C2137D50900DA8F0D /* SMHomeForwardVideoTableViewCell.m */; };
+		477CB3B9C3758171BBE5176C /* libPods-starmaker8.0UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F258B2370F2F25EB3F98C5A /* libPods-starmaker8.0UITests.a */; };
+		95D8D89E52E69174777EDD39 /* libPods-starmaker8.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BE016EE4011A3254E0DB2BF /* libPods-starmaker8.0.a */; };
+		F9D432CC6B2C57FF5F291C0A /* libPods-starmaker8.0Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F02BBED722D9B3FD681DBF /* libPods-starmaker8.0Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		045F718A45C9D33AEDC43B47 /* Pods-starmaker8.0UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-starmaker8.0UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-starmaker8.0UITests/Pods-starmaker8.0UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		14CB56F4213574D200DA8F0D /* starmaker8.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = starmaker8.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14CB56F7213574D200DA8F0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		14CB56F8213574D200DA8F0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +66,37 @@
 		14CB5717213574D400DA8F0D /* starmaker8.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = starmaker8.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14CB571B213574D400DA8F0D /* starmaker8_0UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = starmaker8_0UITests.m; sourceTree = "<group>"; };
 		14CB571D213574D400DA8F0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14CB57292135755700DA8F0D /* SMHomeBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMHomeBaseTableViewCell.h; sourceTree = "<group>"; };
+		14CB572A2135755700DA8F0D /* SMHomeBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMHomeBaseTableViewCell.m; sourceTree = "<group>"; };
+		14CB572C2135771300DA8F0D /* UIColor+RandomColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+RandomColor.h"; sourceTree = "<group>"; };
+		14CB572D2135771300DA8F0D /* UIColor+RandomColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RandomColor.m"; sourceTree = "<group>"; };
+		14CB572F21357A0300DA8F0D /* SMHomeAudioTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHomeAudioTableViewCell.h; sourceTree = "<group>"; };
+		14CB573021357A0300DA8F0D /* SMHomeAudioTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMHomeAudioTableViewCell.m; sourceTree = "<group>"; };
+		14CB573221357EE400DA8F0D /* SMHomeVideoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHomeVideoTableViewCell.h; sourceTree = "<group>"; };
+		14CB573321357EE400DA8F0D /* SMHomeVideoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMHomeVideoTableViewCell.m; sourceTree = "<group>"; };
+		14CB5735213637FC00DA8F0D /* SMHomeCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHomeCellModel.h; sourceTree = "<group>"; };
+		14CB5736213637FC00DA8F0D /* SMHomeCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMHomeCellModel.m; sourceTree = "<group>"; };
+		14CB573821363C6800DA8F0D /* SMHomeImageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHomeImageTableViewCell.h; sourceTree = "<group>"; };
+		14CB573921363C6800DA8F0D /* SMHomeImageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMHomeImageTableViewCell.m; sourceTree = "<group>"; };
+		14CB573B21368E4400DA8F0D /* SMHomeSingVideoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHomeSingVideoView.h; sourceTree = "<group>"; };
+		14CB573C21368E4400DA8F0D /* SMHomeSingVideoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMHomeSingVideoView.m; sourceTree = "<group>"; };
+		14CB573E2136CDB500DA8F0D /* SMHomeForwardAudioTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHomeForwardAudioTableViewCell.h; sourceTree = "<group>"; };
+		14CB573F2136CDB500DA8F0D /* SMHomeForwardAudioTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMHomeForwardAudioTableViewCell.m; sourceTree = "<group>"; };
+		14CB574421378E1E00DA8F0D /* SMHomeConstDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHomeConstDefine.h; sourceTree = "<group>"; };
+		14CB57452137953500DA8F0D /* SMHomeCardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHomeCardView.h; sourceTree = "<group>"; };
+		14CB57462137953500DA8F0D /* SMHomeCardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMHomeCardView.m; sourceTree = "<group>"; };
+		14CB57482137D45A00DA8F0D /* SMHomeForwardImageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHomeForwardImageTableViewCell.h; sourceTree = "<group>"; };
+		14CB57492137D45A00DA8F0D /* SMHomeForwardImageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMHomeForwardImageTableViewCell.m; sourceTree = "<group>"; };
+		14CB574B2137D50900DA8F0D /* SMHomeForwardVideoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHomeForwardVideoTableViewCell.h; sourceTree = "<group>"; };
+		14CB574C2137D50900DA8F0D /* SMHomeForwardVideoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMHomeForwardVideoTableViewCell.m; sourceTree = "<group>"; };
+		26D09ED1C5D86E06ED0458F7 /* Pods-starmaker8.0Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-starmaker8.0Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-starmaker8.0Tests/Pods-starmaker8.0Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F258B2370F2F25EB3F98C5A /* libPods-starmaker8.0UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-starmaker8.0UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BE016EE4011A3254E0DB2BF /* libPods-starmaker8.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-starmaker8.0.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B503500A82C2F541EE16FAB6 /* Pods-starmaker8.0Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-starmaker8.0Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-starmaker8.0Tests/Pods-starmaker8.0Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B83F9EE0F9A866D1DB134DE7 /* Pods-starmaker8.0UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-starmaker8.0UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-starmaker8.0UITests/Pods-starmaker8.0UITests.release.xcconfig"; sourceTree = "<group>"; };
+		C95FBADFE804AC7F573785D0 /* Pods-starmaker8.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-starmaker8.0.debug.xcconfig"; path = "Pods/Target Support Files/Pods-starmaker8.0/Pods-starmaker8.0.debug.xcconfig"; sourceTree = "<group>"; };
+		CB9F019F5CC7C67ADF702E95 /* Pods-starmaker8.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-starmaker8.0.release.xcconfig"; path = "Pods/Target Support Files/Pods-starmaker8.0/Pods-starmaker8.0.release.xcconfig"; sourceTree = "<group>"; };
+		D0F02BBED722D9B3FD681DBF /* libPods-starmaker8.0Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-starmaker8.0Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95D8D89E52E69174777EDD39 /* libPods-starmaker8.0.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9D432CC6B2C57FF5F291C0A /* libPods-starmaker8.0Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				477CB3B9C3758171BBE5176C /* libPods-starmaker8.0UITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +134,8 @@
 				14CB570F213574D400DA8F0D /* starmaker8.0Tests */,
 				14CB571A213574D400DA8F0D /* starmaker8.0UITests */,
 				14CB56F5213574D200DA8F0D /* Products */,
+				65CC177B359C044D5D31F207 /* Pods */,
+				154ACC4C57F762220BE21615 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +156,29 @@
 				14CB56F8213574D200DA8F0D /* AppDelegate.m */,
 				14CB56FA213574D200DA8F0D /* ViewController.h */,
 				14CB56FB213574D200DA8F0D /* ViewController.m */,
+				14CB574421378E1E00DA8F0D /* SMHomeConstDefine.h */,
+				14CB5735213637FC00DA8F0D /* SMHomeCellModel.h */,
+				14CB5736213637FC00DA8F0D /* SMHomeCellModel.m */,
+				14CB57452137953500DA8F0D /* SMHomeCardView.h */,
+				14CB57462137953500DA8F0D /* SMHomeCardView.m */,
+				14CB573B21368E4400DA8F0D /* SMHomeSingVideoView.h */,
+				14CB573C21368E4400DA8F0D /* SMHomeSingVideoView.m */,
+				14CB57292135755700DA8F0D /* SMHomeBaseTableViewCell.h */,
+				14CB572A2135755700DA8F0D /* SMHomeBaseTableViewCell.m */,
+				14CB572F21357A0300DA8F0D /* SMHomeAudioTableViewCell.h */,
+				14CB573021357A0300DA8F0D /* SMHomeAudioTableViewCell.m */,
+				14CB573E2136CDB500DA8F0D /* SMHomeForwardAudioTableViewCell.h */,
+				14CB573F2136CDB500DA8F0D /* SMHomeForwardAudioTableViewCell.m */,
+				14CB573221357EE400DA8F0D /* SMHomeVideoTableViewCell.h */,
+				14CB573321357EE400DA8F0D /* SMHomeVideoTableViewCell.m */,
+				14CB574B2137D50900DA8F0D /* SMHomeForwardVideoTableViewCell.h */,
+				14CB574C2137D50900DA8F0D /* SMHomeForwardVideoTableViewCell.m */,
+				14CB573821363C6800DA8F0D /* SMHomeImageTableViewCell.h */,
+				14CB573921363C6800DA8F0D /* SMHomeImageTableViewCell.m */,
+				14CB57482137D45A00DA8F0D /* SMHomeForwardImageTableViewCell.h */,
+				14CB57492137D45A00DA8F0D /* SMHomeForwardImageTableViewCell.m */,
+				14CB572C2135771300DA8F0D /* UIColor+RandomColor.h */,
+				14CB572D2135771300DA8F0D /* UIColor+RandomColor.m */,
 				14CB56FD213574D200DA8F0D /* Main.storyboard */,
 				14CB5700213574D400DA8F0D /* Assets.xcassets */,
 				14CB5702213574D400DA8F0D /* LaunchScreen.storyboard */,
@@ -132,6 +206,29 @@
 			path = starmaker8.0UITests;
 			sourceTree = "<group>";
 		};
+		154ACC4C57F762220BE21615 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BE016EE4011A3254E0DB2BF /* libPods-starmaker8.0.a */,
+				D0F02BBED722D9B3FD681DBF /* libPods-starmaker8.0Tests.a */,
+				2F258B2370F2F25EB3F98C5A /* libPods-starmaker8.0UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65CC177B359C044D5D31F207 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C95FBADFE804AC7F573785D0 /* Pods-starmaker8.0.debug.xcconfig */,
+				CB9F019F5CC7C67ADF702E95 /* Pods-starmaker8.0.release.xcconfig */,
+				26D09ED1C5D86E06ED0458F7 /* Pods-starmaker8.0Tests.debug.xcconfig */,
+				B503500A82C2F541EE16FAB6 /* Pods-starmaker8.0Tests.release.xcconfig */,
+				045F718A45C9D33AEDC43B47 /* Pods-starmaker8.0UITests.debug.xcconfig */,
+				B83F9EE0F9A866D1DB134DE7 /* Pods-starmaker8.0UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14CB5720213574D400DA8F0D /* Build configuration list for PBXNativeTarget "starmaker8.0" */;
 			buildPhases = (
+				A7EC24AA74C919A3B4DE272F /* [CP] Check Pods Manifest.lock */,
 				14CB56F0213574D200DA8F0D /* Sources */,
 				14CB56F1213574D200DA8F0D /* Frameworks */,
 				14CB56F2213574D200DA8F0D /* Resources */,
+				B425F25E825F043A76A87B9F /* [CP] Embed Pods Frameworks */,
+				46D168EE4A91F1E0ECB7FFBC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +256,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14CB5723213574D400DA8F0D /* Build configuration list for PBXNativeTarget "starmaker8.0Tests" */;
 			buildPhases = (
+				65A94A41AD30A36520ADD4C0 /* [CP] Check Pods Manifest.lock */,
 				14CB5708213574D400DA8F0D /* Sources */,
 				14CB5709213574D400DA8F0D /* Frameworks */,
 				14CB570A213574D400DA8F0D /* Resources */,
+				806ED50ADEA4CF47D87ABEA6 /* [CP] Embed Pods Frameworks */,
+				B99502F6F82B6D0135040CDE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +277,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14CB5726213574D400DA8F0D /* Build configuration list for PBXNativeTarget "starmaker8.0UITests" */;
 			buildPhases = (
+				10B5B9CEAEFEA3D4AEC1EDE8 /* [CP] Check Pods Manifest.lock */,
 				14CB5713213574D400DA8F0D /* Sources */,
 				14CB5714213574D400DA8F0D /* Frameworks */,
 				14CB5715213574D400DA8F0D /* Resources */,
+				18C37366710CC2CD37CA3050 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,14 +362,148 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10B5B9CEAEFEA3D4AEC1EDE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		18C37366710CC2CD37CA3050 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-starmaker8.0UITests/Pods-starmaker8.0UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46D168EE4A91F1E0ECB7FFBC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-starmaker8.0/Pods-starmaker8.0-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65A94A41AD30A36520ADD4C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		806ED50ADEA4CF47D87ABEA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-starmaker8.0Tests/Pods-starmaker8.0Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7EC24AA74C919A3B4DE272F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B425F25E825F043A76A87B9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-starmaker8.0/Pods-starmaker8.0-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B99502F6F82B6D0135040CDE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-starmaker8.0Tests/Pods-starmaker8.0Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		14CB56F0213574D200DA8F0D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14CB573A21363C6800DA8F0D /* SMHomeImageTableViewCell.m in Sources */,
 				14CB56FC213574D200DA8F0D /* ViewController.m in Sources */,
+				14CB573121357A0300DA8F0D /* SMHomeAudioTableViewCell.m in Sources */,
+				14CB572E2135771300DA8F0D /* UIColor+RandomColor.m in Sources */,
+				14CB573D21368E4400DA8F0D /* SMHomeSingVideoView.m in Sources */,
+				14CB57472137953500DA8F0D /* SMHomeCardView.m in Sources */,
+				14CB574A2137D45A00DA8F0D /* SMHomeForwardImageTableViewCell.m in Sources */,
 				14CB5707213574D400DA8F0D /* main.m in Sources */,
+				14CB574D2137D50900DA8F0D /* SMHomeForwardVideoTableViewCell.m in Sources */,
 				14CB56F9213574D200DA8F0D /* AppDelegate.m in Sources */,
+				14CB572B2135755700DA8F0D /* SMHomeBaseTableViewCell.m in Sources */,
+				14CB5737213637FC00DA8F0D /* SMHomeCellModel.m in Sources */,
+				14CB573421357EE400DA8F0D /* SMHomeVideoTableViewCell.m in Sources */,
+				14CB57402136CDB500DA8F0D /* SMHomeForwardAudioTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +670,7 @@
 		};
 		14CB5721213574D400DA8F0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C95FBADFE804AC7F573785D0 /* Pods-starmaker8.0.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +687,7 @@
 		};
 		14CB5722213574D400DA8F0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB9F019F5CC7C67ADF702E95 /* Pods-starmaker8.0.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -463,6 +704,7 @@
 		};
 		14CB5724213574D400DA8F0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26D09ED1C5D86E06ED0458F7 /* Pods-starmaker8.0Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -481,6 +723,7 @@
 		};
 		14CB5725213574D400DA8F0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B503500A82C2F541EE16FAB6 /* Pods-starmaker8.0Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +742,7 @@
 		};
 		14CB5727213574D400DA8F0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 045F718A45C9D33AEDC43B47 /* Pods-starmaker8.0UITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = starmaker8.0UITests/Info.plist;
@@ -516,6 +760,7 @@
 		};
 		14CB5728213574D400DA8F0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B83F9EE0F9A866D1DB134DE7 /* Pods-starmaker8.0UITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = starmaker8.0UITests/Info.plist;
